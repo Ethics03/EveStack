@@ -1,6 +1,6 @@
 # EveStack
 
-EvePro is an event promotion platform designed for colleges and organizations to promote their events, hackathons, and more. It helps users discover, register, and get tickets for various events seamlessly.
+EveStack is an event promotion platform designed for colleges and organizations to promote their events, hackathons, and more. It helps users discover, register, and get tickets for various events seamlessly.
 
 ## Features
 
@@ -24,8 +24,8 @@ EvePro is an event promotion platform designed for colleges and organizations to
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ethics03/EvePro.git
-   cd evepro
+   git clone https://github.com/Ethics03/EveStack.git
+   cd EveStack
    ```
 2. Install dependencies:
    ```bash
