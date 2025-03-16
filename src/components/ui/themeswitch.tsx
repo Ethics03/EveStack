@@ -1,7 +1,7 @@
 'use client'
 
 import { useTheme } from "next-themes"
-import { Children, useEffect, useState } from "react";
+import {useEffect, useState } from "react";
 import {Switch} from './switch'
 
 export default function ThemeSwitcher(){

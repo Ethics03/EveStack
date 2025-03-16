@@ -1,5 +1,5 @@
 'use client'
-import { Switch } from "@/components/ui/switch"
+
 import ThemeSwitcher from "@/components/ui/themeswitch";
 export default function Home() {
   return (
