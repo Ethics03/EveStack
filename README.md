@@ -1,4 +1,4 @@
-# EvePro
+# EveStack
 
 EvePro is an event promotion platform designed for colleges and organizations to promote their events, hackathons, and more. It helps users discover, register, and get tickets for various events seamlessly.
 
