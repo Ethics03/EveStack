@@ -4,7 +4,7 @@ import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMe
 import ThemeSwitcher from "@/components/ui/themeswitch";
 export default function Home() {
   return (
-    <div className = "flex items-center justify-around p-3 ">
+    <div className = "flex items-center justify-between p-2 m-1">
     <h1 className = 'font-bold text-xl'>EveStack</h1>
     <ThemeSwitcher/>
     <NavigationMenu>
