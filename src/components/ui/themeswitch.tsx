@@ -25,7 +25,7 @@ export default function ThemeSwitcher(){
         }
     }
     return(
-        <div>
+        <div className = 'p-2'>
             <Switch onClick={handletheme}/>
         </div>
     )
