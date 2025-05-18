@@ -29,17 +29,7 @@ const eventData = {
   liked: false,
 }
 
-interface Props {
-  params: {
-    id: string
-  }
-}
-
-export default function EventDetails({
-  params,
-}: {
-  params: { id: string }
-}) {
+export default function EventDetails() {
   const [event, setEvent] = useState(eventData)
   const [liked, setLiked] = useState(event.liked)
 
@@ -50,7 +40,7 @@ export default function EventDetails({
   const handleRegister = () => {
     alert("Registration successful!")
   }
-  
+
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
