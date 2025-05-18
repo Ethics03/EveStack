@@ -29,7 +29,13 @@ const eventData = {
   liked: false,
 }
 
-export default function EventDetails({ params }: { params: { id: string } }) {
+interface Props {
+  params: {
+    id: string
+  }
+}
+
+export default function EventDetails({ params }: { params: Props }) {
   const [event, setEvent] = useState(eventData)
   const [liked, setLiked] = useState(event.liked)
 
