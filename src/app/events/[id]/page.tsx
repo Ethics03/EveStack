@@ -35,7 +35,7 @@ interface Props {
   }
 }
 
-export default function EventDetails({ params }: { params: Props }) {
+export default function EventDetails({ params }: Props ) {
   const [event, setEvent] = useState(eventData)
   const [liked, setLiked] = useState(event.liked)
 
