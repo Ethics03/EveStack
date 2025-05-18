@@ -20,7 +20,7 @@ const eventData = {
   description:
     "Join us for a day of tech talks, workshops, and networking opportunities. The Annual Tech Symposium brings together industry leaders, researchers, and students to explore the latest trends and innovations in technology. This year's theme focuses on artificial intelligence and its applications across various domains.\n\nThe event will feature keynote speeches, panel discussions, interactive workshops, and a networking session. Attendees will have the opportunity to engage with cutting-edge research, learn about emerging technologies, and connect with professionals in the field.\n\nRefreshments will be provided throughout the day, and all participants will receive a certificate of attendance.",
   category: "Technology",
-  image: "/placeholder.svg?height=400&width=800",
+  image: "/assets/hackathon.jpg",
   organizer: "Computer Science Department",
   contactEmail: "techsymposium@stanford.edu",
   contactPhone: "(650) 123-4567",
@@ -35,7 +35,11 @@ interface Props {
   }
 }
 
-export default function EventDetails({ params }: Props ) {
+export default function EventDetails({
+  params,
+}: {
+  params: { id: string }
+}) {
   const [event, setEvent] = useState(eventData)
   const [liked, setLiked] = useState(event.liked)
 
@@ -44,17 +48,16 @@ export default function EventDetails({ params }: Props ) {
   }
 
   const handleRegister = () => {
-    // In a real app, this would send a registration request to the server
     alert("Registration successful!")
   }
-
+  
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 font-bold">
             <School className="h-5 w-5" />
-            <span>CampusEvents</span>
+            <span>EveStack</span>
           </div>
           <nav className="hidden gap-6 md:flex">
             <Link href="/" className="font-medium">
