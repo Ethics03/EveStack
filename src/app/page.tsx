@@ -53,7 +53,7 @@ export default function LandingPage() {
                   Discover & Promote College Events with EveStack
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  The all-in-one platform that helps colleges promote their events and students discover what's
+                  The all-in-one platform that helps colleges promote their events and students discover what&apos;s
                   happening on campus.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -216,8 +216,8 @@ export default function LandingPage() {
               <div className="flex flex-col justify-between rounded-lg border bg-background p-6 shadow-sm">
                 <div className="space-y-4">
                   <p className="text-muted-foreground">
-                    "EveStack has transformed how we promote campus events. Our student engagement has increased by 45%
-                    since implementing the platform."
+                  &quot;EveStack has transformed how we promote campus events. Our student engagement has increased by 45%
+                    since implementing the platform.&quot;
                   </p>
                 </div>
                 <div className="flex items-center gap-4 pt-4">
@@ -233,8 +233,8 @@ export default function LandingPage() {
               <div className="flex flex-col justify-between rounded-lg border bg-background p-6 shadow-sm">
                 <div className="space-y-4">
                   <p className="text-muted-foreground">
-                    "As a student, I love how easy it is to find events that match my interests. The notifications keep
-                    me in the loop without being overwhelming."
+                  &quot;As a student, I love how easy it is to find events that match my interests. The notifications keep
+                    me in the loop without being overwhelming.&quot;
                   </p>
                 </div>
                 <div className="flex items-center gap-4 pt-4">
