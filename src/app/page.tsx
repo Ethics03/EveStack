@@ -16,7 +16,7 @@ export default function LandingPage() {
             <Calendar className="h-6 w-6 text-primary" />
             <span className="text-xl font-bold">EveStack</span>
           </div>
-          <nav className="hidden md:flex gap-6">
+          <nav className="hidden md:flex gap-6 pl-30">
             <Link href="#features" className="text-sm font-medium hover:text-primary">
               Features
             </Link>
@@ -35,7 +35,7 @@ export default function LandingPage() {
             <Link href="/login">
               <Button variant="outline">Log in</Button>
             </Link>
-            <Link href="/signup">
+            <Link href="/sign-up">
               <Button>Sign up</Button>
             </Link>
           </div>
@@ -57,7 +57,7 @@ export default function LandingPage() {
                   happening on campus.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Link href="/signup">
+                  <Link href="/sign-up">
                     <Button size="lg" className="gap-1">
                       Get Started <ArrowRight className="h-4 w-4" />
                     </Button>
@@ -286,7 +286,7 @@ export default function LandingPage() {
                   </li>
                 </ul>
                 <div className="mt-6">
-                  <Link href="/signup">
+                  <Link href="/sign-up">
                     <Button className="w-full">Get Started</Button>
                   </Link>
                 </div>
@@ -322,7 +322,7 @@ export default function LandingPage() {
                   </li>
                 </ul>
                 <div className="mt-6">
-                  <Link href="/signup">
+                  <Link href="/sign-up">
                     <Button className="w-full">Get Started</Button>
                   </Link>
                 </div>
@@ -381,7 +381,7 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Link href="/signup">
+                <Link href="/sign-up">
                   <Button size="lg" className="gap-1">
                     Sign Up Now <ArrowRight className="h-4 w-4" />
                   </Button>
