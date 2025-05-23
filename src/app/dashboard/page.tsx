@@ -74,7 +74,7 @@ export default function DashboardPage() {
               <div className="mx-auto flex max-w-[420px] flex-col items-center justify-center text-center">
                 <h3 className="mt-4 text-lg font-semibold">No events found</h3>
                 <p className="mb-4 mt-2 text-sm text-muted-foreground">
-                  Try adjusting your search or filter to find what you're looking for.
+                  Try adjusting your search or filter to find what you&apos;re looking for.
                 </p>
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function DashboardPage() {
               <div className="mx-auto flex max-w-[420px] flex-col items-center justify-center text-center">
                 <h3 className="mt-4 text-lg font-semibold">No starred events</h3>
                 <p className="mb-4 mt-2 text-sm text-muted-foreground">
-                  Star events you're interested in to find them here.
+                  Star events you&apos;re interested in to find them here.
                 </p>
               </div>
             </div>
