@@ -19,21 +19,16 @@ export interface User {
   // Event types
   export interface Event {
     id: string
-    collegeId: string
-    collegeName: string
     title: string
     description: string
     date: string
     time: string
     location: string
     category: string
+    collegeName: string
+    collegeId: string
     image?: string
-    organizer?: string
-    contactEmail?: string
-    contactPhone?: string
-    capacity: number
-    registeredAttendees: number
-    likes: number
-    status: "upcoming" | "past"
+    isStarred: boolean
   }
+  
   
