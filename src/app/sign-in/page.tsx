@@ -6,7 +6,7 @@ import { useEffect } from "react"
 import { LogIn } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function SignUpPage() {
   const { data: session, status } = useSession()
@@ -20,9 +20,7 @@ export default function SignUpPage() {
     }
   }, [session, status, router])
 
-  const handleGitHubSignIn = () => {
-    signIn("github", { callbackUrl: "/dashboard" })
-  }
+
   
   if (session) {
     return null
