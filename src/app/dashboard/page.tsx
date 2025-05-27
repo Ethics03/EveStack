@@ -40,7 +40,7 @@ export default function DashboardPage() {
   // Get starred events
   const starredEvents = events.filter((event) => event.isStarred)
 
-  // Toggle star status for an event
+  
   const toggleStar = (id: string) => {
     setEvents(events.map((event) => (event.id === id ? { ...event, isStarred: !(event.isStarred ?? false) } : event)))
   }
